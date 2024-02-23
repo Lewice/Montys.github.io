@@ -183,7 +183,7 @@
 </head>
 <body>
 
-  <h2>Otto's Menu</h2>
+  <h2>Monty's Menu</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
