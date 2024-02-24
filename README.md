@@ -183,7 +183,7 @@
 </head>
 <body>
 
-  <h2>Monty's Menu</h2>
+  <h2>Otto's Menu</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
@@ -253,13 +253,63 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>    
 
+	<h3>Turbo </h3>
+	<label>
+      <input type="checkbox" class="menu-item" data-price="2500"> Turbo Install - $2500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 	
-	<h3>Misc Items</h3>
- <label>
-      <input type="checkbox" class="menu-item" data-price="750"> VIP Vehicle Upgrade - $15,000
+	<h3>Armor </h3>
+	<label>
+      <input type="checkbox" class="menu-item" data-price="1000"> Armor Install - $1000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+	
+	<h3>Bullet Proof Tires </h3>
+	<label>
+      <input type="checkbox" class="menu-item" data-price="500"> Bullet Proof Tires - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
+	<h3>Nos </h3>
+	<label>
+      <input type="checkbox" class="menu-item" data-price="0"> Nos Bottle (Out Of Stock) - $0
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+	<label>
+      <input type="checkbox" class="menu-item" data-price="0"> Nos Refills - $0
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
+
+	
+	<h3>Misc Items</h3>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="15000"> VIP Vehicle Upgrade - $15,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+	
+		<h3>Body Work</h3>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="250"> Engine Repair - $250
+      <input type="number" class="quantity" value="1" min="1">
+ </label>
+	 <label>
+      <input type="checkbox" class="menu-item" data-price="250"> Body Repair - $250
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="250"> Rims - $250
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="250"> Neons / Xenons - $250
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="1"> Horn - $1
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 
 
 
