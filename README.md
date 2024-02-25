@@ -288,6 +288,14 @@
       <input type="checkbox" class="menu-item" data-price="15000"> VIP Vehicle Upgrade - $15,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="35000"> Bike Full Upgrade - $35,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="30000"> Full Upgrade - $30,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 	
 		<h3>Body Work</h3>
  <label>
@@ -299,7 +307,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
  <label>
-      <input type="checkbox" class="menu-item" data-price="250"> Rims - $250
+      <input type="checkbox" class="menu-item" data-price="250"> Body Cosmetics - $250
       <input type="number" class="quantity" value="1" min="1">
     </label>
  <label>
