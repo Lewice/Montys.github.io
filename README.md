@@ -55,7 +55,7 @@
   });
 
   // Change commission rate from 5% to 10%
-  const commission = total * 0.20;
+  const commission = total * 0.10;
 
   document.getElementById('total').innerText = total.toFixed(2);
   document.getElementById('commission').innerText = commission.toFixed(2);
