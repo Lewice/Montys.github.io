@@ -245,7 +245,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Brakes Tier 2 - $3000
+      <input type="checkbox" class="menu-item" data-price="6000"> Brakes Tier 2 - $6000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
