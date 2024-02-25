@@ -331,6 +331,11 @@
       <option value="0">No Discount</option>
       
     </select>
+	<div style="margin-bottom: 30px;"></div>
+	
+	<label for="customerName">Customer Name:</label>
+<input type="text" id="customerName" required>
+<div style="margin-bottom: 30px;"></div>
 	
 	<div style="margin-bottom: 30px;"></div>
 	
