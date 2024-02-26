@@ -206,34 +206,34 @@
 	
 	<h3>Suspension Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Suspension Tier 1 - $5000
+      <input type="checkbox" class="menu-item" data-price="5000"> Suspension Tier 1 - $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Suspension Tier 2 - $6000
+      <input type="checkbox" class="menu-item" data-price="6000"> Suspension Tier 2 - $6000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="4000"> Suspension Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="7000"> Suspension Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Suspension Tier 4 - $8000
+      <input type="checkbox" class="menu-item" data-price="8000"> Suspension Tier 4 - $8000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 	
 	<h3>Transmission Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Transmission Tier 1- $5000
+      <input type="checkbox" class="menu-item" data-price="5000"> Transmission Tier 1- $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Transmission Tier 2 - $6000
+      <input type="checkbox" class="menu-item" data-price="6000"> Transmission Tier 2 - $6000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="6000"> Transmission Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="7000"> Transmission Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -241,7 +241,7 @@
 	
 	<h3>Brake Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Brakes Tier 1 - $5000
+      <input type="checkbox" class="menu-item" data-price="5000"> Brakes Tier 1 - $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
@@ -289,11 +289,11 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="30000"> Full Upgrade - $30,000
+      <input type="checkbox" class="menu-item" data-price="35000"> Full Upgrade - $35,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="35000"> Bike Full Upgrade - $35,000
+      <input type="checkbox" class="menu-item" data-price="30000"> Bike Full Upgrade - $30,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     
@@ -358,7 +358,7 @@
 	
 
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (20%): $<span id="commission"></span></p>
+    <p>Commission (10%): $<span id="commission"></span></p>
 	
 	<div style="margin-bottom: 30px;"></div>
 
