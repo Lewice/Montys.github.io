@@ -200,7 +200,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="800"> Engine Tier 4 - $8000
+      <input type="checkbox" class="menu-item" data-price="8000"> Engine Tier 4 - $8000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
