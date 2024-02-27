@@ -183,7 +183,7 @@
 </head>
 <body>
 
-  <h2>Otto's Menu</h2>
+  <h2>Monty's Menu</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
@@ -289,11 +289,11 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="35000"> Full Upgrade - $35,000
+      <input type="checkbox" class="menu-item" data-price="35000"> full upgrades (cosmetics included) - $35,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="30000"> Bike Full Upgrade - $30,000
+      <input type="checkbox" class="menu-item" data-price="30000"> full bike upgrade (cosmetics included) - $30,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     
@@ -338,6 +338,7 @@
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
+      <option value="20%">Specialty Discount</option>
       
     </select>
 	<div style="margin-bottom: 30px;"></div>
