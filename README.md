@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shop menu</title>
+  <title>Menu Calculator and Form Submission</title>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <style>
     body, h2, form, label, p, button, select, input {
@@ -109,12 +109,12 @@
 
   // Form Submission Logic for Spreadsheet
   $.ajax({
-    url: "https://api.apispreadsheets.com/data/oCVaCiGQbdXk0geX/",
+    url: "https://api.apispreadsheets.com/data/2EIH0uf74d5AXQYY/",
     type: "post",
     data: formData,
     headers: {
-      accessKey: "78c53a03e2c352aa7629af9d524d913c",
-      secretKey: "fffae51bff736d80c1e7d79e5bfacb79",
+      accessKey: "f57af189f864147e5e8c784045ab5acd",
+      secretKey: "89ddc7e8871f2a3a84a6b7e08cd7e9d8",
       "Content-Type": "application/x-www-form-urlencoded",
     },
     success: function () {
@@ -128,7 +128,7 @@
 
   // Prepare data for Discord webhook
   const discordData = {
-    username: "Receipts",
+    username: "Benny's Receipts",
     content: `New order submitted by ${employeeName}`,
     embeds: [{
       title: "Order Details",
@@ -183,7 +183,7 @@
 </head>
 <body>
 
-<h2>Monty's Menu</h2>
+  <h2>Benny's</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
@@ -284,7 +284,7 @@
 
 	
 	<h3>Misc Items</h3>
- <label>
+	<label>
       <input type="checkbox" class="menu-item" data-price="15000"> VIP Vehicle Upgrade - $15,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
@@ -299,35 +299,27 @@
     
 	
 		<h3>Body Work</h3>
- <label>
+	<label>
       <input type="checkbox" class="menu-item" data-price="250"> Engine Repair - $250
       <input type="number" class="quantity" value="1" min="1">
- </label>
+	</label>
 	 <label>
       <input type="checkbox" class="menu-item" data-price="250"> Body Repair - $250
       <input type="number" class="quantity" value="1" min="1">
     </label>
- <label>
+	<label>
       <input type="checkbox" class="menu-item" data-price="250"> Body Cosmetics - $250
       <input type="number" class="quantity" value="1" min="1">
     </label>
- <label>
+	<label>
       <input type="checkbox" class="menu-item" data-price="250"> Neons / Xenons - $250
       <input type="number" class="quantity" value="1" min="1">
     </label>
- <label>
+	<label>
       <input type="checkbox" class="menu-item" data-price="1"> Horn - $1
       <input type="number" class="quantity" value="1" min="1">
     </label>
-
-
-
-
-
-
-
- 
-
+	
 	
 	
 	
@@ -339,18 +331,13 @@
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
       <option value="20">20% Discount Specialty Discount</option>
-
     </select>
 	
 	<div style="margin-bottom: 30px;"></div>
 	
-		<label for="customerName">Customer Name:</label>
-		<input type="text" id="customerName" required>
+	<label for="customerName">Customer Name:</label>
+	<input type="text" id="customerName" required>
 	<div style="margin-bottom: 30px;"></div>
-	
-	<div style="margin-bottom: 30px;"></div>
-	
-
 
     <label for="employeeName">Employee Name:</label>
     <input type="text" id="employeeName" required>
