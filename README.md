@@ -183,7 +183,7 @@
 </head>
 <body>
 
-  <h2>Monty's Menu</h2>
+<h2>Monty's Menu</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
@@ -338,14 +338,15 @@
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
-      <option value="20%">Specialty Discount</option>
-      
+      <option value="20">20% Discount Specialty Discount</option>
+
     </select>
+	
 	<div style="margin-bottom: 30px;"></div>
 	
-	<label for="customerName">Customer Name:</label>
-<input type="text" id="customerName" required>
-<div style="margin-bottom: 30px;"></div>
+		<label for="customerName">Customer Name:</label>
+		<input type="text" id="customerName" required>
+	<div style="margin-bottom: 30px;"></div>
 	
 	<div style="margin-bottom: 30px;"></div>
 	
@@ -359,7 +360,7 @@
 	
 
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (10%): $<span id="commission"></span></p>
+    <p>Commission (20%): $<span id="commission"></span></p>
 	
 	<div style="margin-bottom: 30px;"></div>
 
