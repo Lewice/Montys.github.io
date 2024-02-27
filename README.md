@@ -360,7 +360,7 @@
 	
 
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (20%): $<span id="commission"></span></p>
+    <p>Commission (10%): $<span id="commission"></span></p>
 	
 	<div style="margin-bottom: 30px;"></div>
 
