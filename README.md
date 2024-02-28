@@ -76,6 +76,13 @@
     return;
   }
 
+  // Check if the customer name is provided
+  const customerName = $("#customerName").val();
+  if (customerName.trim() === "") {
+    alert("Customer Name is required!");
+    return;
+  }
+
   // Get selected menu items and quantities
   const orderedItems = [];
   const menuItems = document.querySelectorAll('.menu-item:checked');
@@ -101,6 +108,7 @@
   // Prepare data for API submission
   const formData = {
     "Employee Name": employeeName,
+    "Customer Name": customerName,
     "Total": totalValue.toFixed(2),
     "Commission": commission.toFixed(2),
     "Items Ordered": JSON.stringify(orderedItems),
@@ -134,6 +142,7 @@
       title: "Order Details",
       fields: [
         { name: "Employee Name", value: employeeName, inline: true },
+        { name: "Customer Name", value: customerName, inline: true },
         { name: "Total", value: `$${totalValue.toFixed(2)}`, inline: true },
         { name: "Commission", value: `$${commission.toFixed(2)}`, inline: true },
         { name: "Discount Applied", value: `${discount}%`, inline: true },
@@ -167,18 +176,6 @@
   // Reset discount dropdown to default
   $("#discount").val("0");
 }
-
-    function resetForm() {
-      // Reset checkboxes and quantity inputs
-      $('.menu-item').prop('checked', false);
-      $('.quantity').val(1);
-
-      // Reset totals
-      document.getElementById('total').innerText = '';
-      document.getElementById('commission').innerText = '';
-      // Reset discount dropdown to default
-      $("#discount").val("0");
-    }
   </script>
 </head>
 <body>
